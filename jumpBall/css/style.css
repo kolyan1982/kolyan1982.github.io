@@ -1,0 +1,34 @@
+body {
+    background-color: #040404;
+    -webkit-background-size: 1000px 900px;
+    background-size: 1000px 900px;
+}
+
+.ball {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ff31a0;
+    border-radius: 100%;
+    animation: jumpball 3s linear infinite,
+    moveLeft 25s linear infinite;
+
+}
+
+@keyframes jumpball {
+    0% {bottom: 100%;}
+    25% {bottom: 0;  width: 100px;  height: 100px; }
+    30% {bottom: 0;  width: 110px;  height: 25px; background-color: red;}
+    35% {bottom: 0;  width: 100px;  height: 100px; }
+    70% {bottom: 100%; background-color: #ff31a0;}
+    100% {bottom: 100%;}
+}
+
+@keyframes moveLeft {
+    from {
+        left: 0;
+    }
+    to {
+        left: 100%;
+    }
+}
