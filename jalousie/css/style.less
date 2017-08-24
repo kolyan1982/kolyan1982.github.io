@@ -1,0 +1,603 @@
+/*============    ШРИФТЫ    ===========*/
+@font-face {
+  font-family: 'PFDinTextCondProBold';
+  src: url('../fonts/PFDinTextCondProBold.eot');
+  src: url('../fonts/PFDinTextCondProBold.eot') format('embedded-opentype'),
+  url('../fonts/PFDinTextCondProBold.woff2') format('woff2'),
+  url('../fonts/PFDinTextCondProBold.woff') format('woff'),
+  url('../fonts/PFDinTextCondProBold.ttf') format('truetype'),
+  url('../fonts/PFDinTextCondProBold.svg#PFDinTextCondProBold') format('svg');
+}
+
+@font-face {
+  font-family: 'PFDinTextCondProItalic';
+  src: url('../fonts/PFDinTextCondProItalic.eot');
+  src: url('../fonts/PFDinTextCondProItalic.eot') format('embedded-opentype'),
+  url('../fonts/PFDinTextCondProItalic.woff2') format('woff2'),
+  url('../fonts/PFDinTextCondProItalic.woff') format('woff'),
+  url('../fonts/PFDinTextCondProItalic.ttf') format('truetype'),
+  url('../fonts/PFDinTextCondProItalic.svg#PFDinTextCondProItalic') format('svg');
+}
+
+@font-face {
+  font-family: 'PFDinTextCondProMedium';
+  src: url('../fonts/PFDinTextCondProMedium.eot');
+  src: url('../fonts/PFDinTextCondProMedium.eot') format('embedded-opentype'),
+  url('../fonts/PFDinTextCondProMedium.woff2') format('woff2'),
+  url('../fonts/PFDinTextCondProMedium.woff') format('woff'),
+  url('../fonts/PFDinTextCondProMedium.ttf') format('truetype'),
+  url('../fonts/PFDinTextCondProMedium.svg#PFDinTextCondProMedium') format('svg');
+}
+
+@font-face {
+  font-family: 'PFDinTextCondProLight';
+  src: url('../fonts/PFDinTextCondProLight.eot');
+  src: url('../fonts/PFDinTextCondProLight.eot') format('embedded-opentype'),
+  url('../fonts/PFDinTextCondProLight.woff2') format('woff2'),
+  url('../fonts/PFDinTextCondProLight.woff') format('woff'),
+  url('../fonts/PFDinTextCondProLight.ttf') format('truetype'),
+  url('../fonts/PFDinTextCondProLight.svg#PFDinTextCondProLight') format('svg');
+}
+
+.bold() {
+  font-family: 'PFDinTextCondProBold';
+}
+
+.med() {
+  font-family: 'PFDinTextCondProMedium';
+}
+
+.light() {
+  font-family: 'PFDinTextCondProLight';
+}
+
+.italic() {
+  font-family: 'PFDinTextCondProItalic';
+}
+
+.transition() {
+  -webkit-transition: all 0.1s 0.02s ease;
+  -moz-transition: all 0.1s 0.02s ease;
+  -o-transition: all 0.1s 0.02s ease;
+  -ms-transition: all 0.1s 0.02s ease;
+  transition: all 0.1s 0.02s ease;
+}
+
+/*============    header    ===========*/
+
+header {
+  padding: 20px 0;
+  color: #666;
+  .descript {
+    h4 {
+      .med;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    h5 {
+      .light;
+      text-align: center;
+      font-size: 15px;
+
+    }
+  }
+  .phone_number {
+    text-align: right;
+    h3 {
+      margin-top: 7px;
+      a {
+        display: inline-block;
+        .med;
+        color: #666;
+        font-size: 25px;
+
+        &:hover {
+          text-decoration: none;
+        }
+        &::before {
+          content: '';
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 3px;
+          margin-bottom: 3px;
+          width: 20px;
+          height: 20px;
+          background: url("../img/phone_icon.png") no-repeat center center;
+        }
+      }
+    }
+    p {
+      .light;
+    }
+
+  }
+}
+
+/*============    nav    ===========*/
+
+nav {
+  background-color: #FAFDFA;
+  .list-inline {
+    margin-bottom: 0;
+    a {
+      .light;
+      display: inline-block;
+      padding: 20px 10px;
+      text-transform: uppercase;
+      font-size: 15px;
+      color: #666;
+      .transition;
+      &:hover {
+        text-decoration: none;
+        cursor: pointer;
+        color: #fff;
+        background-color: #67CC67;
+      }
+    }
+  }
+
+}
+
+/*============    section main    ===========*/
+
+#main {
+  background: url('../img/bg.png') no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+
+  h1 {
+    .bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 90px;
+
+    & span {
+      background-color: #67CC67;
+      padding: 5px;
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+  }
+
+  h2 {
+    .bold;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+    & span {
+      color: #FF9933;
+    }
+  }
+
+  #get_measurer {
+    .bold;
+    color: #fff;
+    background-color: #FF9933;
+    text-transform: uppercase;
+    padding: 17px 35px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+
+    &:hover {
+      background-color: #d67513;
+    }
+
+  }
+
+  #get_types {
+    outline: none;
+    .bold;
+    text-transform: uppercase;
+    border: 1px solid #FF9933;
+    color: #FF9933;
+    padding: 16px 35px;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 20px;
+
+    &:hover {
+      color: #d67513;
+    }
+
+  }
+
+}
+
+/*============    section type    ===========*/
+
+#type {
+  color: #666;
+  padding-top: 75px;
+  h2 {
+    .bold;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+  }
+
+  .card {
+    .transition;
+    padding: 5px;
+    border: 2px solid transparent;
+    h4 {
+      .med;
+      margin-top: 25px;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    .more_btn {
+      border: 1px solid #66CC66;
+      outline: none;
+      .bold;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #66CC66;
+      background-color: transparent;
+      padding: 10px 27px;
+      .transition;
+
+      &:hover {
+        color: #fff;
+        background-color: #66CC66;
+      }
+    }
+
+    .offer_btn {
+      border: 1px solid #66CC66;
+      outline: none;
+      .bold;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fff;
+      background-color: #66CC66;
+      padding: 10px 27px;
+      .transition;
+
+      &:hover {
+        color: #66CC66;
+        background-color: transparent;
+
+      }
+    }
+    &:hover {
+      border: 1px solid #B2E5B2;
+    }
+  }
+
+}
+
+/*============    section help    ===========*/
+
+#help {
+  padding: 80px 0;
+
+  h3 {
+    .bold;
+    text-transform: uppercase;
+    color: #ff9933;
+  }
+  p {
+    .light;
+    color: #666;
+    font-size: 18px;
+  }
+
+  img {
+    margin-top: 20px;
+  }
+
+  .free_btn {
+    .bold;
+    outline: none;
+    border: 1px solid #FF9933;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FF9933;
+    background-color: transparent;
+    padding: 15px 25px;
+
+    &:hover {
+      color: #fff;
+      background-color: #FF9933;
+      .transition;
+    }
+  }
+
+}
+
+/*============    section portfolio    ===========*/
+
+/*============    section offer   ===========*/
+
+#offer {
+  padding: 80px 0;
+
+  h4 {
+    .bold;
+    font-size: 20px;
+    color: #ff9933;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+  }
+
+  h3 {
+    .bold;
+    color: #ff9933;
+    text-transform: uppercase;
+    font-size: 30px;
+  }
+  p {
+    .light;
+    color: #666;
+    font-size: 22px;
+    margin-bottom: 30px;
+
+  }
+
+  input[name="name"] {
+    background: url('../img/name.png') no-repeat center left 5px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    -moz-box-sizing: border-box;
+    .light;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  input[name="phone"] {
+    background: url('../img/tel.png') no-repeat center left 5px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    .light;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  button {
+    border: none;
+    outline: none;
+    .bold;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #FF9933;
+    padding: 10px 20px;
+  }
+
+}
+
+/*============    section feedback   ===========*/
+
+#feedback {
+  padding: 70px 0;
+  background-color: #fcfcfc;
+  color: #666;
+
+  h2 {
+    .bold;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+  }
+
+  .item {
+    background-color: #f8f8f8;
+    padding: 20px;
+    height: 300px;
+
+    h5, a {
+      .med;
+      font-size: 20px;
+    }
+
+    p {
+      margin-top: 25px;
+      .light;
+
+    }
+
+  }
+
+  .carousel-indicators {
+    bottom: -50px;
+  }
+
+  .carousel-indicators .active {
+    background-color: #66cc66;
+  }
+  .carousel-indicators li {
+    border: 1px solid #cccccc;
+  }
+
+  .audio {
+    margin-top: 15px;
+  }
+
+}
+
+/*============    footer   ===========*/
+
+footer {
+  background-color: #666666;
+  padding: 75px 0 10px;
+  color: #fff;
+
+  h2 {
+    .bold;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  address {
+    margin-top: 55px;
+
+    #address {
+      .light;
+      color: #ccc;
+      text-transform: uppercase;
+      font-size: 13px;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background: url("../img/ikon_add.png") no-repeat center center;
+        margin-bottom: 3px;
+        vertical-align: middle;
+      }
+    }
+
+    #kazan {
+      .light;
+      font-size: 20px;
+
+    }
+  }
+
+  .phone_footer {
+    #phone_footer {
+      .light;
+      color: #ccc;
+      text-transform: uppercase;
+      font-size: 13px;
+
+      &::before {
+        content: '';
+        display: inline-block;
+        width: 13px;
+        height: 13px;
+        background: url("../img/tel_add.png") no-repeat center center;
+        margin-bottom: 3px;
+        vertical-align: middle;
+      }
+    }
+
+    #number {
+      .light;
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+
+  }
+  a.social_icon {
+    background-color: #CCCCCC;
+    padding: 8px;
+    padding-left: 9px;
+    border-radius: 50%;
+    text-align: center;
+    width: 37px;
+    height: 37px;
+
+    &:hover {
+      background-color: #FFFFFF;
+    }
+  }
+
+  #get_answer {
+    .bold;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    margin-left: 30px;
+    padding: 15px 50px;
+
+    &:hover {
+      background-color: #fff;
+      color: #666;
+    }
+  }
+
+  .details_row {
+    margin-top: 20px;
+    color: #ccc;
+
+    .details {
+      h5 {
+        .med;
+        color: #fff;
+        font-size: 20px;
+        margin-bottom: 10px;
+
+      }
+      p {
+        .light;
+      }
+    }
+
+    .policy {
+      text-align: center;
+      a {
+        .light;
+        text-decoration: underline;
+        color: #ccc;
+        font-size: 20px;
+      }
+      p{
+        .light;
+        font-size: 15px;
+        margin-top: 15px;
+      }
+    }
+
+    .page_b {
+      text-align: right;
+
+      h4 {
+        .bold;
+        color: #fff;
+        text-transform: uppercase;
+
+      }
+    }
+
+
+  }
+
+}
+
+/*============    ШРИФТЫ    ===========*/
+
+/*============    ПОДВАЛ    ===========*/
+
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+
+/*============    	АДАПТИВ    ===========*/
+
+@media (min-width: 0px) and (max-width: 320px) {
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+
+
