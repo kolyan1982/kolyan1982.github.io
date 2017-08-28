@@ -1,1 +1,779 @@
-@font-face{font-family:PFDinTextCondProBold;src:url(../fonts/PFDinTextCondProBold.eot);src:url(../fonts/PFDinTextCondProBold.eot) format('embedded-opentype'),url(../fonts/PFDinTextCondProBold.woff2) format('woff2'),url(../fonts/PFDinTextCondProBold.woff) format('woff'),url(../fonts/PFDinTextCondProBold.ttf) format('truetype'),url(../fonts/PFDinTextCondProBold.svg#PFDinTextCondProBold) format('svg')}@font-face{font-family:PFDinTextCondProItalic;src:url(../fonts/PFDinTextCondProItalic.eot);src:url(../fonts/PFDinTextCondProItalic.eot) format('embedded-opentype'),url(../fonts/PFDinTextCondProItalic.woff2) format('woff2'),url(../fonts/PFDinTextCondProItalic.woff) format('woff'),url(../fonts/PFDinTextCondProItalic.ttf) format('truetype'),url(../fonts/PFDinTextCondProItalic.svg#PFDinTextCondProItalic) format('svg')}@font-face{font-family:PFDinTextCondProMedium;src:url(../fonts/PFDinTextCondProMedium.eot);src:url(../fonts/PFDinTextCondProMedium.eot) format('embedded-opentype'),url(../fonts/PFDinTextCondProMedium.woff2) format('woff2'),url(../fonts/PFDinTextCondProMedium.woff) format('woff'),url(../fonts/PFDinTextCondProMedium.ttf) format('truetype'),url(../fonts/PFDinTextCondProMedium.svg#PFDinTextCondProMedium) format('svg')}@font-face{font-family:PFDinTextCondProLight;src:url(../fonts/PFDinTextCondProLight.eot);src:url(../fonts/PFDinTextCondProLight.eot) format('embedded-opentype'),url(../fonts/PFDinTextCondProLight.woff2) format('woff2'),url(../fonts/PFDinTextCondProLight.woff) format('woff'),url(../fonts/PFDinTextCondProLight.ttf) format('truetype'),url(../fonts/PFDinTextCondProLight.svg#PFDinTextCondProLight) format('svg')}header{padding:20px 0;color:#666}header .descript h4{font-family:PFDinTextCondProMedium;text-align:center;text-transform:uppercase}header .descript h5{font-family:PFDinTextCondProLight;text-align:center;font-size:15px}header .phone_number{text-align:right}header .phone_number h3{margin-top:7px}header .phone_number h3 a{display:inline-block;font-family:PFDinTextCondProMedium;color:#666;font-size:25px}header .phone_number h3 a:hover{text-decoration:none}header .phone_number h3 a::before{content:'';display:inline-block;vertical-align:middle;margin-right:3px;margin-bottom:3px;width:20px;height:20px;background:url(../img/phone_icon.png) center center no-repeat}header .phone_number p{font-family:PFDinTextCondProLight}nav{background-color:#FAFDFA}nav .list-inline{margin-bottom:0}nav .list-inline a{font-family:PFDinTextCondProLight;display:inline-block;padding:20px 10px;text-transform:uppercase;font-size:15px;color:#666;-webkit-transition:all .1s .02s ease;-moz-transition:all .1s .02s ease;-o-transition:all .1s .02s ease;-ms-transition:all .1s .02s ease;transition:all .1s .02s ease}nav .list-inline a:hover{text-decoration:none;cursor:pointer;color:#fff;background-color:#67CC67}#main{background:url(../img/bg.png) center center no-repeat;background-size:cover;padding:100px 0}#main h1{font-family:PFDinTextCondProBold;font-size:35px;text-transform:uppercase;color:#fff;margin-bottom:90px}#main h1 span{background-color:#67CC67;padding:5px;display:inline-block;margin-bottom:5px}#main h2{font-family:PFDinTextCondProBold;color:#666;text-transform:uppercase;font-size:20px;margin-bottom:10px}#main h2 span{color:#F93}#main #get_measurer{font-family:PFDinTextCondProBold;color:#fff;background-color:#F93;text-transform:uppercase;padding:17px 35px;outline:0;border:none;font-size:20px}#main #get_measurer:hover{background-color:#d67513}#main #get_types{outline:0;font-family:PFDinTextCondProBold;text-transform:uppercase;border:1px solid #F93;color:#F93;padding:16px 35px;background-color:transparent;font-size:20px;margin-left:20px}#main #get_types:hover{color:#d67513}#type{color:#666;padding-top:75px}#type h2{font-family:PFDinTextCondProBold;text-align:center;font-size:35px;text-transform:uppercase;margin-bottom:55px}#type .card{-webkit-transition:all .1s .02s ease;-moz-transition:all .1s .02s ease;-o-transition:all .1s .02s ease;-ms-transition:all .1s .02s ease;transition:all .1s .02s ease;padding:5px;border:2px solid transparent}#type .card h4{font-family:PFDinTextCondProMedium;margin-top:25px;font-size:20px;text-transform:uppercase}#type .card .more_btn{border:1px solid #6C6;outline:0;font-family:PFDinTextCondProBold;font-size:14px;text-transform:uppercase;color:#6C6;background-color:transparent;padding:10px 27px;-webkit-transition:all .1s .02s ease;-moz-transition:all .1s .02s ease;-o-transition:all .1s .02s ease;-ms-transition:all .1s .02s ease;transition:all .1s .02s ease}#type .card .more_btn:hover{color:#fff;background-color:#6C6}#type .card .offer_btn{border:1px solid #6C6;outline:0;font-family:PFDinTextCondProBold;font-size:14px;text-transform:uppercase;color:#fff;background-color:#6C6;padding:10px 27px;-webkit-transition:all .1s .02s ease;-moz-transition:all .1s .02s ease;-o-transition:all .1s .02s ease;-ms-transition:all .1s .02s ease;transition:all .1s .02s ease}#type .card .offer_btn:hover{color:#6C6;background-color:transparent}#type .card:hover{border:1px solid #B2E5B2}#help{padding:80px 0}#help h3{font-family:PFDinTextCondProBold;text-transform:uppercase;color:#f93}#help p{font-family:PFDinTextCondProLight;color:#666;font-size:18px}#help img{margin-top:20px}#help .free_btn{font-family:PFDinTextCondProBold;outline:0;border:1px solid #F93;font-size:20px;text-transform:uppercase;color:#F93;background-color:transparent;padding:15px 25px}#help .free_btn:hover{color:#fff;background-color:#F93;-webkit-transition:all .1s .02s ease;-moz-transition:all .1s .02s ease;-o-transition:all .1s .02s ease;-ms-transition:all .1s .02s ease;transition:all .1s .02s ease}#offer{padding:80px 0}#offer h4{font-family:PFDinTextCondProBold;font-size:20px;color:#f93;text-transform:uppercase;margin-bottom:35px}#offer h3{font-family:PFDinTextCondProBold;color:#f93;text-transform:uppercase;font-size:30px}#offer p{font-family:PFDinTextCondProLight;color:#666;font-size:22px;margin-bottom:30px}#offer input[name=name]{background:url(../img/name.png) center left 5px no-repeat;padding:10px 10px 10px 30px;border-radius:0;border:1px solid #ccc;opacity:.8;-moz-box-sizing:border-box;font-family:PFDinTextCondProLight}#offer input[name=name]:hover{opacity:1}#offer input[name=phone]{background:url(../img/tel.png) center left 5px no-repeat;padding:10px 10px 10px 30px;border-radius:0;border:1px solid #ccc;opacity:.8;font-family:PFDinTextCondProLight}#offer input[name=phone]:hover{opacity:1}#offer button{border:none;outline:0;font-family:PFDinTextCondProBold;color:#fff;text-transform:uppercase;background-color:#F93;padding:10px 20px}#feedback{padding:70px 0;background-color:#fcfcfc;color:#666}#feedback h2{font-family:PFDinTextCondProBold;text-transform:uppercase;margin-bottom:70px}#feedback .item{background-color:#f8f8f8;padding:20px;height:300px}#feedback .item a,#feedback .item h5{font-family:PFDinTextCondProMedium;font-size:20px}#feedback .item p{margin-top:25px;font-family:PFDinTextCondProLight}#feedback .carousel-indicators{bottom:-50px}#feedback .carousel-indicators .active{background-color:#6c6}#feedback .carousel-indicators li{border:1px solid #ccc}#feedback .audio{margin-top:15px}footer{background-color:#666;padding:75px 0 10px;color:#fff}footer h2{font-family:PFDinTextCondProBold;text-transform:uppercase;color:#fff}footer address{margin-top:55px}footer address #address{font-family:PFDinTextCondProLight;color:#ccc;text-transform:uppercase;font-size:13px}footer address #address::before{content:'';display:inline-block;width:13px;height:13px;background:url(../img/ikon_add.png) center center no-repeat;margin-bottom:3px;vertical-align:middle}footer address #kazan{font-family:PFDinTextCondProLight;font-size:20px}footer .phone_footer #phone_footer{font-family:PFDinTextCondProLight;color:#ccc;text-transform:uppercase;font-size:13px}footer .phone_footer #phone_footer::before{content:'';display:inline-block;width:13px;height:13px;background:url(../img/tel_add.png) center center no-repeat;margin-bottom:3px;vertical-align:middle}footer .phone_footer #number{font-family:PFDinTextCondProLight;font-size:20px;margin-bottom:50px}footer a.social_icon{background-color:#CCC;padding:8px 8px 8px 9px;border-radius:50%;text-align:center;width:37px;height:37px}footer a.social_icon:hover{background-color:#FFF}footer #get_answer{font-family:PFDinTextCondProBold;text-transform:uppercase;border:2px solid #fff;color:#fff;background-color:transparent;margin-left:30px;padding:15px 50px}footer #get_answer:hover{background-color:#fff;color:#666}footer .details_row{margin-top:20px;color:#ccc}footer .details_row .details h5{font-family:PFDinTextCondProMedium;color:#fff;font-size:20px;margin-bottom:10px}footer .details_row .details p{font-family:PFDinTextCondProLight}footer .details_row .policy{text-align:center}footer .details_row .policy a{font-family:PFDinTextCondProLight;text-decoration:underline;color:#ccc;font-size:20px}footer .details_row .policy p{font-family:PFDinTextCondProLight;font-size:15px;margin-top:15px}footer .details_row .page_b{text-align:right}footer .details_row .page_b h4{font-family:PFDinTextCondProBold;color:#fff;text-transform:uppercase}
+/*============    ШРИФТЫ    ===========*/
+@font-face {
+  font-family: 'PFDinTextCondProBold';
+  src: url('../fonts/PFDinTextCondProBold.eot');
+  src: url('../fonts/PFDinTextCondProBold.eot') format('embedded-opentype'), url('../fonts/PFDinTextCondProBold.woff2') format('woff2'), url('../fonts/PFDinTextCondProBold.woff') format('woff'), url('../fonts/PFDinTextCondProBold.ttf') format('truetype'), url('../fonts/PFDinTextCondProBold.svg#PFDinTextCondProBold') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCondProItalic';
+  src: url('../fonts/PFDinTextCondProItalic.eot');
+  src: url('../fonts/PFDinTextCondProItalic.eot') format('embedded-opentype'), url('../fonts/PFDinTextCondProItalic.woff2') format('woff2'), url('../fonts/PFDinTextCondProItalic.woff') format('woff'), url('../fonts/PFDinTextCondProItalic.ttf') format('truetype'), url('../fonts/PFDinTextCondProItalic.svg#PFDinTextCondProItalic') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCondProMedium';
+  src: url('../fonts/PFDinTextCondProMedium.eot');
+  src: url('../fonts/PFDinTextCondProMedium.eot') format('embedded-opentype'), url('../fonts/PFDinTextCondProMedium.woff2') format('woff2'), url('../fonts/PFDinTextCondProMedium.woff') format('woff'), url('../fonts/PFDinTextCondProMedium.ttf') format('truetype'), url('../fonts/PFDinTextCondProMedium.svg#PFDinTextCondProMedium') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCondProLight';
+  src: url('../fonts/PFDinTextCondProLight.eot');
+  src: url('../fonts/PFDinTextCondProLight.eot') format('embedded-opentype'), url('../fonts/PFDinTextCondProLight.woff2') format('woff2'), url('../fonts/PFDinTextCondProLight.woff') format('woff'), url('../fonts/PFDinTextCondProLight.ttf') format('truetype'), url('../fonts/PFDinTextCondProLight.svg#PFDinTextCondProLight') format('svg');
+}
+/*============    header    ===========*/
+header {
+  padding: 20px 0;
+  color: #666;
+}
+header .descript h4 {
+  font-family: 'PFDinTextCondProMedium';
+  text-align: center;
+  text-transform: uppercase;
+}
+header .descript h5 {
+  font-family: 'PFDinTextCondProLight';
+  text-align: center;
+  font-size: 15px;
+}
+header .phone_number {
+  text-align: right;
+}
+header .phone_number h3 {
+  margin-top: 7px;
+}
+header .phone_number h3 a {
+  display: inline-block;
+  font-family: 'PFDinTextCondProMedium';
+  color: #666;
+  font-size: 25px;
+}
+header .phone_number h3 a:hover {
+  text-decoration: none;
+}
+header .phone_number h3 a::before {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  width: 20px;
+  height: 20px;
+  background: url("../img/phone_icon.png") no-repeat center center;
+}
+header .phone_number p {
+  font-family: 'PFDinTextCondProLight';
+}
+/*============    nav    ===========*/
+nav {
+  background-color: #FAFDFA;
+}
+nav .list-inline {
+  margin-bottom: 0;
+}
+nav .list-inline a {
+  font-family: 'PFDinTextCondProLight';
+  display: inline-block;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #666;
+  -webkit-transition: all 0.1s 0.02s ease;
+  -moz-transition: all 0.1s 0.02s ease;
+  -o-transition: all 0.1s 0.02s ease;
+  -ms-transition: all 0.1s 0.02s ease;
+  transition: all 0.1s 0.02s ease;
+}
+nav .list-inline a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #67CC67;
+}
+/*============    section main    ===========*/
+#main {
+  background: url('../img/bg.png') no-repeat center center;
+  background-size: cover;
+  padding: 100px 0;
+}
+#main h1 {
+  font-family: 'PFDinTextCondProBold';
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 90px;
+}
+#main h1 span {
+  background-color: #67CC67;
+  padding: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+#main h2 {
+  font-family: 'PFDinTextCondProBold';
+  color: #666;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#main h2 span {
+  color: #FF9933;
+}
+#main #get_measurer {
+  font-family: 'PFDinTextCondProBold';
+  color: #fff;
+  background-color: #FF9933;
+  text-transform: uppercase;
+  padding: 17px 35px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+#main #get_measurer:hover {
+  background-color: #d67513;
+}
+#main #get_types {
+  outline: none;
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+  border: 1px solid #FF9933;
+  color: #FF9933;
+  padding: 16px 35px;
+  background-color: transparent;
+  font-size: 20px;
+  margin-left: 20px;
+}
+#main #get_types:hover {
+  color: #d67513;
+}
+/*============    section type    ===========*/
+#type {
+  color: #666;
+  padding-top: 75px;
+}
+#type h2 {
+  font-family: 'PFDinTextCondProBold';
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 55px;
+}
+#type .card {
+  -webkit-transition: all 0.1s 0.02s ease;
+  -moz-transition: all 0.1s 0.02s ease;
+  -o-transition: all 0.1s 0.02s ease;
+  -ms-transition: all 0.1s 0.02s ease;
+  transition: all 0.1s 0.02s ease;
+  padding: 5px;
+  border: 2px solid transparent;
+}
+#type .card h4 {
+  font-family: 'PFDinTextCondProMedium';
+  margin-top: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+#type .card .more_btn {
+  border: 1px solid #66CC66;
+  outline: none;
+  font-family: 'PFDinTextCondProBold';
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #66CC66;
+  background-color: transparent;
+  padding: 10px 27px;
+  -webkit-transition: all 0.1s 0.02s ease;
+  -moz-transition: all 0.1s 0.02s ease;
+  -o-transition: all 0.1s 0.02s ease;
+  -ms-transition: all 0.1s 0.02s ease;
+  transition: all 0.1s 0.02s ease;
+}
+#type .card .more_btn:hover {
+  color: #fff;
+  background-color: #66CC66;
+}
+#type .card .offer_btn {
+  border: 1px solid #66CC66;
+  outline: none;
+  font-family: 'PFDinTextCondProBold';
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #66CC66;
+  padding: 10px 27px;
+  -webkit-transition: all 0.1s 0.02s ease;
+  -moz-transition: all 0.1s 0.02s ease;
+  -o-transition: all 0.1s 0.02s ease;
+  -ms-transition: all 0.1s 0.02s ease;
+  transition: all 0.1s 0.02s ease;
+}
+#type .card .offer_btn:hover {
+  color: #66CC66;
+  background-color: transparent;
+}
+#type .card:hover {
+  border: 1px solid #B2E5B2;
+}
+/*============    section help    ===========*/
+#help {
+  padding: 80px 0;
+}
+#help h3 {
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+  color: #ff9933;
+}
+#help p {
+  font-family: 'PFDinTextCondProLight';
+  color: #666;
+  font-size: 18px;
+}
+#help img {
+  margin-top: 20px;
+}
+#help .free_btn {
+  font-family: 'PFDinTextCondProBold';
+  outline: none;
+  border: 1px solid #FF9933;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #FF9933;
+  background-color: transparent;
+  padding: 15px 25px;
+}
+#help .free_btn:hover {
+  color: #fff;
+  background-color: #FF9933;
+  -webkit-transition: all 0.1s 0.02s ease;
+  -moz-transition: all 0.1s 0.02s ease;
+  -o-transition: all 0.1s 0.02s ease;
+  -ms-transition: all 0.1s 0.02s ease;
+  transition: all 0.1s 0.02s ease;
+}
+/*============    section portfolio    ===========*/
+/*============    section offer   ===========*/
+#offer {
+  padding: 80px 0;
+}
+#offer h4 {
+  font-family: 'PFDinTextCondProBold';
+  font-size: 20px;
+  color: #ff9933;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+#offer h3 {
+  font-family: 'PFDinTextCondProBold';
+  color: #ff9933;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+#offer p {
+  font-family: 'PFDinTextCondProLight';
+  color: #666;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+#offer input[name="name"] {
+  background: url('../img/name.png') no-repeat center left 5px;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  opacity: 0.8;
+  -moz-box-sizing: border-box;
+  font-family: 'PFDinTextCondProLight';
+}
+#offer input[name="name"]:hover {
+  opacity: 1;
+}
+#offer input[name="phone"] {
+  background: url('../img/tel.png') no-repeat center left 5px;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  opacity: 0.8;
+  font-family: 'PFDinTextCondProLight';
+}
+#offer input[name="phone"]:hover {
+  opacity: 1;
+}
+#offer button {
+  border: none;
+  outline: none;
+  font-family: 'PFDinTextCondProBold';
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #FF9933;
+  padding: 10px 20px;
+}
+/*============    section feedback   ===========*/
+#feedback {
+  padding: 70px 0;
+  background-color: #fcfcfc;
+  color: #666;
+}
+#feedback h2 {
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+#feedback .item {
+  background-color: #f8f8f8;
+  padding: 20px;
+  height: 300px;
+}
+#feedback .item h5,
+#feedback .item a {
+  font-family: 'PFDinTextCondProMedium';
+  font-size: 20px;
+}
+#feedback .item p {
+  margin-top: 25px;
+  font-family: 'PFDinTextCondProLight';
+}
+#feedback .carousel-indicators {
+  bottom: -50px;
+}
+#feedback .carousel-indicators .active {
+  background-color: #66cc66;
+}
+#feedback .carousel-indicators li {
+  border: 1px solid #cccccc;
+}
+#feedback .audio {
+  margin-top: 15px;
+}
+/*============    footer   ===========*/
+footer {
+  background-color: #666666;
+  padding: 75px 0 10px;
+  color: #fff;
+}
+footer h2 {
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+  color: #fff;
+}
+footer address {
+  margin-top: 55px;
+}
+footer address #address {
+  font-family: 'PFDinTextCondProLight';
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+footer address #address::before {
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: url("../img/ikon_add.png") no-repeat center center;
+  margin-bottom: 3px;
+  vertical-align: middle;
+}
+footer address #kazan {
+  font-family: 'PFDinTextCondProLight';
+  font-size: 20px;
+}
+footer .phone_footer #phone_footer {
+  font-family: 'PFDinTextCondProLight';
+  color: #ccc;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+footer .phone_footer #phone_footer::before {
+  content: '';
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background: url("../img/tel_add.png") no-repeat center center;
+  margin-bottom: 3px;
+  vertical-align: middle;
+}
+footer .phone_footer #number {
+  font-family: 'PFDinTextCondProLight';
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+footer a.social_icon {
+  background-color: #CCCCCC;
+  padding: 8px;
+  padding-left: 9px;
+  border-radius: 50%;
+  text-align: center;
+  width: 37px;
+  height: 37px;
+}
+footer a.social_icon:hover {
+  background-color: #FFFFFF;
+}
+footer #get_answer {
+  font-family: 'PFDinTextCondProBold';
+  text-transform: uppercase;
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  margin-left: 30px;
+  padding: 15px 50px;
+}
+footer #get_answer:hover {
+  background-color: #fff;
+  color: #666;
+}
+footer .details_row {
+  margin-top: 20px;
+  color: #ccc;
+}
+footer .details_row .details h5 {
+  font-family: 'PFDinTextCondProMedium';
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+footer .details_row .details p {
+  font-family: 'PFDinTextCondProLight';
+}
+footer .details_row .policy {
+  text-align: center;
+}
+footer .details_row .policy a {
+  font-family: 'PFDinTextCondProLight';
+  text-decoration: underline;
+  color: #ccc;
+  font-size: 20px;
+}
+footer .details_row .policy p {
+  font-family: 'PFDinTextCondProLight';
+  font-size: 15px;
+  margin-top: 15px;
+}
+footer .details_row .page_b {
+  text-align: right;
+}
+footer .details_row .page_b h4 {
+  font-family: 'PFDinTextCondProBold';
+  color: #fff;
+  text-transform: uppercase;
+}
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+.modal-dialog {
+  margin-top: 10%;
+}
+.big_modal {
+  width: 60%;
+}
+.header_modal h4 {
+  font-family: 'PFDinTextCondProBold';
+  color: #666;
+  text-transform: uppercase;
+  text-align: center;
+}
+.modal-header {
+  margin-top: -50px;
+  border-bottom: none;
+}
+.modal-header button.close {
+  text-shadow: none;
+  color: #fff;
+  opacity: 0.9;
+  margin-right: -40px;
+}
+.modal-content input[name="name"] {
+  margin-top: 15px;
+  background: url('../img/name.png') no-repeat center left 5px;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  opacity: 0.8;
+  -moz-box-sizing: border-box;
+  font-family: 'PFDinTextCondProLight';
+}
+.modal-content input[name="name"]:hover {
+  opacity: 1;
+}
+.modal-content input[name="phone"] {
+  margin-top: 15px;
+  background: url('../img/tel.png') no-repeat center left 5px;
+  padding: 10px;
+  padding-left: 30px;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  opacity: 0.8;
+  font-family: 'PFDinTextCondProLight';
+}
+.modal-content input[name="phone"]:hover {
+  opacity: 1;
+}
+.modal-content button {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  font-family: 'PFDinTextCondProBold';
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #FF9933;
+  padding: 10px 20px;
+}
+.modal-content p {
+  font-family: 'PFDinTextCondProLight';
+  font-size: 18px;
+}
+.header_modal_info h4 {
+  font-family: 'PFDinTextCondProBold';
+  margin-left: 20px;
+  color: #666;
+  text-transform: uppercase;
+}
+/*============    	АДАПТИВ    ===========*/
+.dropdown-toggle {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #666;
+}
+.dropdown-toggle:hover {
+  background-color: #666;
+  color: #fff;
+}
+.dropdown-toggle i {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.he {
+  height: 45px;
+}
+@media (min-width: 0px) and (max-width: 320px) {
+  nav {
+    top: 0;
+    height: 100px;
+    padding-top: 10px;
+  }
+  #main h1 {
+    text-align: center;
+    font-size: .9em;
+    margin-bottom: 25px;
+  }
+  #main h1 span {
+    line-height: 1.7;
+  }
+  #main h2 {
+    text-align: center;
+    font-size: 15px;
+  }
+  #main button {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  #main #get_measurer {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #main #get_types {
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  #type button {
+    width: 100%;
+  }
+  #type button.more_btn {
+    margin-bottom: 10px;
+  }
+  #help {
+    text-align: center;
+  }
+  #offer {
+    text-align: center;
+  }
+  #offer input {
+    margin-bottom: 10px;
+  }
+  #feedback {
+    text-align: center;
+  }
+  #feedback .fotorama {
+    display: none;
+  }
+  #feedback .item {
+    height: 500px;
+    font-size: 14px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .page_b h4 {
+    text-align: center;
+  }
+  footer button {
+    display: block;
+    margin: 15px auto 0 auto;
+  }
+  .big_modal {
+    text-align: center;
+    width: 90%;
+  }
+}
+@media (min-width: 321px) and (max-width: 480px) {
+  nav {
+    top: 0;
+    height: 100px;
+    padding-top: 10px;
+  }
+  #main h1 {
+    text-align: center;
+    font-size: .9em;
+    margin-bottom: 25px;
+  }
+  #main h1 span {
+    line-height: 1.7;
+  }
+  #main h2 {
+    text-align: center;
+    font-size: 15px;
+  }
+  #main button {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  #main #get_measurer {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #main #get_types {
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  #type button {
+    width: 100%;
+  }
+  #type button.more_btn {
+    margin-bottom: 10px;
+  }
+  #help {
+    text-align: center;
+  }
+  #offer {
+    text-align: center;
+  }
+  #offer input {
+    margin-bottom: 10px;
+  }
+  #feedback {
+    text-align: center;
+  }
+  #feedback .fotorama {
+    display: none;
+  }
+  #feedback .item {
+    height: 500px;
+    font-size: 14px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .page_b h4 {
+    text-align: center;
+  }
+  footer button {
+    display: block;
+    margin: 15px auto 0 auto;
+  }
+  .big_modal {
+    text-align: center;
+    width: 90%;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  nav {
+    top: 0;
+    height: 100px;
+    padding-top: 10px;
+  }
+  #main h1 {
+    text-align: center;
+    font-size: .9em;
+    margin-bottom: 25px;
+  }
+  #main h1 span {
+    line-height: 1.7;
+  }
+  #main h2 {
+    text-align: center;
+    font-size: 18px;
+  }
+  #main button {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  #main #get_measurer {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  #main #get_types {
+    padding: 10px 20px;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  #type button {
+    width: 100%;
+  }
+  #type button.more_btn {
+    margin-bottom: 10px;
+  }
+  #help {
+    text-align: center;
+  }
+  #offer {
+    text-align: center;
+  }
+  #offer input {
+    margin-bottom: 10px;
+  }
+  #feedback {
+    text-align: center;
+  }
+  #feedback .fotorama {
+    display: none;
+  }
+  #feedback .item {
+    height: 500px;
+    font-size: 14px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .page_b h4 {
+    text-align: center;
+  }
+  footer button {
+    width: 90%;
+    display: block;
+    margin: 15px auto 0 auto;
+  }
+  .big_modal {
+    text-align: center;
+    width: 90%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  header .descript h4 {
+    font-size: 16px;
+  }
+  header .phone_number h3 a {
+    font-size: 15px;
+  }
+}

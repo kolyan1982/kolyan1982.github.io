@@ -572,33 +572,97 @@ footer {
 
 }
 
-/*============    ШРИФТЫ    ===========*/
-
-/*============    ПОДВАЛ    ===========*/
-
 /*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
 
-/*============    	АДАПТИВ    ===========*/
+.modal-dialog {
+  margin-top: 10%;
+}
 
-@media (min-width: 0px) and (max-width: 320px) {
+.big_modal {
+  width: 60%;
+}
+
+.header_modal {
+  h4 {
+    .bold;
+    color:#666;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.modal-header {
+  margin-top: -50px;
+  border-bottom: none;
+
+  button.close {
+    text-shadow: none;
+    color: #fff;
+    opacity: 0.9;
+    margin-right: -40px;
+  }
+}
+
+.modal-content {
+  input[name="name"] {
+    margin-top: 15px;
+    background: url('../img/name.png') no-repeat center left 5px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    -moz-box-sizing: border-box;
+    .light;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  input[name="phone"] {
+    margin-top: 15px;
+    background: url('../img/tel.png') no-repeat center left 5px;
+    padding: 10px;
+    padding-left: 30px;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    opacity: 0.8;
+    .light;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  button {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    .bold;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #FF9933;
+    padding: 10px 20px;
+  }
+
+  p {
+    .light;
+    font-size: 18px;
+  }
+}
+
+.header_modal_info {
+  h4 {
+    .bold;
+    margin-left: 20px;
+    color:#666;
+    text-transform: uppercase;
+  }
 
 }
 
-@media (min-width: 321px) and (max-width: 480px) {
-
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-
-}
 
 
+@import 'media.less';
 
