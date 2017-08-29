@@ -83,9 +83,10 @@
   footer .page_b h4 {
     text-align: center;
   }
-  footer button {
+  footer button#get_answer {
+    width: 90%;
     display: block;
-    margin: 15px auto 0 auto;
+    margin: 25px auto 0 auto;
   }
   .big_modal {
     text-align: center;
@@ -165,6 +166,11 @@
     text-align: center;
     width: 90%;
   }
+  button#get_answer {
+    width: 90%;
+    display: block;
+    margin: 25px auto 0 auto;
+  }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   nav {
@@ -239,6 +245,11 @@
   .big_modal {
     text-align: center;
     width: 90%;
+  }
+  button#get_answer {
+    width: 90%;
+    display: block;
+    margin: 25px auto 0 auto;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
