@@ -1,0 +1,176 @@
+body {
+    font-size: 12px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.6;
+    color: #424242;
+}
+
+/*-----start block header-----*/
+
+.header {
+    background-color: #212121;
+}
+
+.header .logo a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font: 35px 'Open Sans Extrabold', sans-serif;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a {
+    display: inline-block;
+    padding: 0 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 50px;
+}
+
+.header ul li a:hover {
+    background-color: #121212;
+}
+
+.header button {
+    outline: none;
+    margin: 3px 0;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+
+
+.header .dropdown-menu li {
+    display: block;
+    color: #000;
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+.header .dropdown-menu li a{
+    position: relative;
+    display:block;
+    color: #000;
+    text-transform: none;
+    font: 14px "Open Sans light",sans-serif;
+    padding: 10px 170px 10px 5px;
+}
+
+.header .dropdown-menu li a:hover {
+    background-color: #eee;
+    color: #757575;
+}
+
+.header .dropdown-menu li a i {
+    position: absolute;
+    right: 5px;
+    top: 36%;
+}
+
+.header .dropdown-submenu {
+    position: relative;
+}
+
+.header .dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.header .dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.header .dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.header .dropdown-submenu.pull-left {
+    float: none;
+}
+
+.header .dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/*-----------------------------------------------------
+                  start block slider
+-----------------------------------------------------*/
+
+.slider {
+    position: relative;
+}
+
+
+.carousel-control.left i,
+.carousel-control.right i {
+    position: absolute;
+    color: #fff;
+    font-size: 35px;
+    padding: 0 13px;
+    top: 38%;
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+.carousel-control.left i {
+    left: 20px;
+}
+.carousel-control.right i {
+    right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------*/
+
+
+
+
+
+
+
