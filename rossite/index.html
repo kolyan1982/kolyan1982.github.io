@@ -11,6 +11,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <style>
@@ -30,33 +31,47 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <div class="logo"><a href="/">Logo</a></div>
+                <div class="logo hidden-xs"><a href="/">Logo</a></div>
             </div>
             <div class="col-md-8">
-                <nav>
-                    <ul>
-                        <li><a href="#">Главная</a></li>
-                        <li class="dropdown">
-                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Каталог товаров <i
-                                    class="fa fa-caret-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Категория 1</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#">Категория 2 <i class="fa fa-caret-right"></i></a>
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
+                                <span class="icon-bar"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <!-- Бренд или название сайта (отображается в левой части меню) -->
+                            <div class="logo visible-xs navbar-brand"><a href="/">Logo</a></div>
+                           <!-- <a class="navbar-brand" href="#">Brand</a>-->
+                        </div><!--end block navbar-header-->
+                        <div class="collapse navbar-collapse" id="navbar-main">
+                            <ul class="nav navbar-nav">
+                                <li><a href="#">Главная</a></li>
+                                <li class="dropdown">
+                                    <a data-toggle="dropdown" class="dropdown-toggle" href="#">Каталог товаров <i
+                                            class="fa fa-caret-down"></i></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Категория 1</a></li>
-                                        <li><a href="#">Категория 2</a></li>
+                                        <li class="dropdown-submenu">
+                                            <a href="#">Категория 2 <i class="fa fa-caret-right"></i></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Категория 1</a></li>
+                                                <li><a href="#">Категория 2</a></li>
+                                                <li><a href="#">Категория 3</a></li>
+                                            </ul>
+                                        </li>
                                         <li><a href="#">Категория 3</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="#">Категория 3</a></li>
+                                <li><a href="#">О нашем магазине</a></li>
+                                <li><a href="#">Доставка</a></li>
+                                <li><a href="#">Оплата</a></li>
+                                <li><a href="#">Контакты</a></li>
                             </ul>
-                        </li>
-                        <li><a href="#">О нашем магазине</a></li>
-                        <li><a href="#">Доставка</a></li>
-                        <li><a href="#">Оплата</a></li>
-                        <li><a href="#">Контакты</a></li>
-                    </ul>
+                        </div><!--end block collapse-->
+                    </div><!--end block container-->
                 </nav>
             </div>
             <div class="col-md-2">
@@ -66,7 +81,7 @@
     </div>
 </header><!--end block header-->
 
-<section class="slider">
+<section class="slider hidden-xs">
     <!-- Карусель -->
     <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
         <!-- Индикаторы для карусели -->
@@ -241,12 +256,12 @@
                             <div class="form-group">
                                 <textarea id="message" class="form-control" rows="3"
                                           placeholder="Ваше сообщение"
-                                          minlength="10" maxlength="500" required="required">
-                                </textarea>
+                                          minlength="10" maxlength="500" required="required"></textarea>
                             </div>
                             <div class="checkbox">
                                 <label>
-                                    <input type="checkbox"> <a href="#">Даю своё согласие на обработку персональных данных в
+                                    <input type="checkbox"> <a href="#">Даю своё согласие на обработку персональных
+                                    данных в
                                     соответствии с пользовательским соглашением</a>
                                 </label>
                             </div>
@@ -261,7 +276,7 @@
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script type="text/javascript">
