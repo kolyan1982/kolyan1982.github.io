@@ -28,7 +28,7 @@ body {
 .header .navbar-header i {
     display: inline-block;
     color: #fff;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .header ul {
@@ -43,7 +43,7 @@ body {
 
 .header ul li a {
     display: inline-block;
-    padding: 0 15px;
+    padding: 0 0.80em;
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
@@ -258,16 +258,22 @@ body {
 }
 
 .footer .contact  li {
-    padding: 0 10px 0 20px;
-    position: relative;
+    display: block;
     margin-bottom: 10px;
     font-size: 12px;
 }
 
-.footer .contact i {
+.footer .contact  li span {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+}
+
+
+.footer .contact li i {
     position: absolute;
     left: 0;
-    top: 4px;
+    top: 20%;
 }
 
 .footer a {
@@ -293,6 +299,18 @@ body {
     margin-left: 5px;
 }
 
+
+.footer .social li {
+    display: inline-block;
+    position: relative;
+}
+
+.footer .social li i {
+    position: absolute;
+    top: 16%;
+}
+
+
 .footer .social a {
     display: inline-block;
     width: 30px;
@@ -315,7 +333,7 @@ body {
 
 .footer .ros p {
     font-family: "Open Sans Regular", sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
 }
 
 

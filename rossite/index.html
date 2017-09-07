@@ -8,7 +8,7 @@
     <title>Rossite</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/media.css">
@@ -19,6 +19,7 @@
             font-family: 'Open Sans', sans-serif;
         }
     </style>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,6 +28,7 @@
     <![endif]-->
 </head>
 <body>
+
 <header class="header">
     <div class="container">
         <div class="row">
@@ -35,16 +37,17 @@
             </div>
             <div class="col-md-8">
                 <nav class="navbar">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-main">
-                                <span class="icon-bar"><i class="fa fa-bars" aria-hidden="true"></i></span>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#navbar-main">
+                                <span class="icon-bar"><i class="fa fa-bars"></i></span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
                             <!-- Бренд или название сайта (отображается в левой части меню) -->
                             <div class="logo visible-xs navbar-brand"><a href="/">Logo</a></div>
-                           <!-- <a class="navbar-brand" href="#">Brand</a>-->
+                            <!-- <a class="navbar-brand" href="#">Brand</a>-->
                         </div><!--end block navbar-header-->
                         <div class="collapse navbar-collapse" id="navbar-main">
                             <ul class="nav navbar-nav">
@@ -56,7 +59,7 @@
                                         <li><a href="#">Категория 1</a></li>
                                         <li class="dropdown-submenu">
                                             <a href="#">Категория 2 <i class="fa fa-caret-right"></i></a>
-                                            <ul class="dropdown-menu">
+                                            <ul class="dropdown-menu size">
                                                 <li><a href="#">Категория 1</a></li>
                                                 <li><a href="#">Категория 2</a></li>
                                                 <li><a href="#">Категория 3</a></li>
@@ -171,11 +174,11 @@
                 <div class="contact">
                     <h3>Контактная информация</h3>
                     <ul>
-                        <li><i class="fa fa-phone"></i>8 (800) 800-00-00</li>
-                        <li><i class="fa fa-phone"></i>8 (800) 800-80-80</li>
-                        <li><i class="fa fa-envelope"></i>mail@mail.ru</li>
-                        <li><i class="fa fa-clock-o"></i>Пн-Вс: 1000-2100</li>
-                        <li><i class="fa fa-map"></i>СПб,Проспект Косыгина 31,к.1</li>
+                        <li><span><i class="fa fa-phone"></i>8 (800) 800-00-00</span></li>
+                        <li><span><i class="fa fa-phone"></i>8 (800) 800-80-80</span></li>
+                        <li><span><i class="fa fa-envelope"></i>mail@mail.ru</span></li>
+                        <li><span><i class="fa fa-clock-o"></i>Пн-Вс: 1000-2100</span></li>
+                        <li><span><i class="fa fa-map"></i>СПб,Проспект Косыгина 31,к.1</span></li>
                     </ul>
                 </div>
             </div>
@@ -212,11 +215,13 @@
                 <div class="col-md-3">
                     <p>&#169;<span>Магазин 2017.</span>Все права защищены.</p>
                 </div>
-                <div class="col-md-2 col-md-offset-5">
-                    <div class="social pull-right">
-                        <a href="#"><i class="fa fa-facebook-official"></i></a>
-                        <a href="#"><i class="fa fa-vk"></i></a>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
+                <div class="col-xs-12 col-md-2 col-md-offset-5">
+                    <div class="social center">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-facebook-official"></i></a></li>
+                            <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-2">
@@ -229,6 +234,7 @@
     </div>
 </footer>
 
+
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
      aria-hidden="true">
     <div class="modal-dialog modal-sm">
@@ -236,12 +242,12 @@
             <!--<div class="modal-header"></div>-->
             <div class="modal-body">
                 <div class="row">
-
-                    <div class="header_modal">
-                        <h2>Свяжитесь с нами</h2>
-                        <h3>Свяжитесь с нашей службой поддержки клиентов, если у Вас есть какие-либо вопросы.</h3>
+                    <div class="col-xs-12">
+                        <div class="header_modal">
+                            <h2>Свяжитесь с нами</h2>
+                            <h3>Свяжитесь с нашей службой поддержки клиентов, если у Вас есть какие-либо вопросы.</h3>
+                        </div>
                     </div>
-
                 </div>
                 <div class="row">
                     <div class="col-xs-12">
