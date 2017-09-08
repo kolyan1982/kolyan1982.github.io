@@ -111,6 +111,7 @@
 
 
     .header {
+        padding-top: 10px;
         color: #fff;
         text-align: center;
     }
@@ -125,11 +126,12 @@
 
 
     .header .nav li a {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .header .nav .dropdown-menu {
         font-size: 14px;
+        background-color: #212121;
     }
 
     .header .nav .dropdown-menu li {
@@ -178,6 +180,27 @@
         position: absolute;
         top: 16%;
         right: 20%;
+    }
+
+    .slider .carousel-caption {
+        top:0;
+    }
+
+    .carousel-indicators {
+        bottom: 216px;
+    }
+
+    .slider h1 {
+        margin-bottom: 10px;
+    }
+
+    .slider h2 {
+        margin-bottom: 10px;
+    }
+
+    .slider p {
+        line-height: 16px;
+        margin-bottom: 10px;
     }
 
    /* .footer .social a {
@@ -206,88 +229,11 @@
         text-align: center;
     }
 
-
-    .header {
-        color: #fff;
-        text-align: center;
-    }
-
     .header .logo a {
         font-size: 22px;
     }
 
-    .header button.navbar-toggle {
-        border: none;
-    }
 
-
-    .header .nav li a {
-        font-size: 16px;
-    }
-
-    .header .nav .dropdown-menu {
-        font-size: 14px;
-    }
-
-    .header .nav .dropdown-menu li {
-        margin-bottom: 15px;
-    }
-
-    .header .nav .dropdown-menu .size li {
-        margin-top: 15px;
-    }
-
-    .header .nav .dropdown-menu .size li a {
-        font-size: 12px;
-    }
-
-
-    .header .dropdown-menu li a {
-        color: #fff;
-        text-align: center;
-
-    }
-
-    .header .dropdown-menu li a:hover {
-        background-color: #121212;
-    }
-
-    .nav .open > a, .nav .open > a:hover,
-    .nav .open > a:focus {
-        background-color: #121212;
-    }
-    .header .nav li {
-        display: block;
-        border-bottom: none;
-    }
-
-    .header .nav a {
-        display: block;
-    }
-
-    .footer .social {
-        padding-top: 15px;
-    }
-
-
-
-    .footer .social li i {
-        position: absolute;
-        top: 16%;
-        right: 20%;
-    }
-
-   /* .footer .social a {
-        display: inline-block;
-        width: 30px;
-        height: 30px;
-        margin-left: 5px;
-        font-size: 16px;
-        color: #fff;
-        padding: 3px 0 0 9px;
-        background-color: #b5b5b5;
-        border-radius: 50%;
-    }*/
 
     .modal-dialog {
         width: 90%;

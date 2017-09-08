@@ -7,6 +7,12 @@ body {
     color: #424242;
 }
 
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #212121;
+}
+
+
+
 /*-----start block header-----*/
 
 .header {
@@ -148,19 +154,19 @@ body {
 
 .slider h1 {
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 2.250em;
     font-weight: bold;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.60);
     margin-bottom: 20px;
 }
 
 .slider h2 {
-    font-size: 30px;
+    font-size: 1.875em;
     margin-bottom: 20px;
 }
 
 .slider p {
-    font-size: 18px;
+    font-size: 1.125em;
     line-height: 28px;
     margin-bottom: 20px;
 }
@@ -170,7 +176,7 @@ body {
 }
 
 .slider .desc h2 {
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 
